@@ -6,7 +6,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/AameenaSana/GradleProject.git'
+                url: 'https://github.com/AameenaSana/DevOps-Lab-2'
             }
         }
 
